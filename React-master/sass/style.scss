@@ -74,6 +74,15 @@ footer {
   border-radius: 2px;
 }
 
+.bullet {
+  display: inline-block;
+  background-color: #5581C0;
+  margin-right: 5px;
+  height: 12.7px;
+  width: 12.7px;
+  border-radius: 50%;
+}
+
 .text-footer > ul {
   list-style-type: none;
   display: flex;
