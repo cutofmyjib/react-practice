@@ -33,6 +33,15 @@ var Hello = React.createClass({
           </div>
         </div>
         <div className="map">
+          <div className="map-memo">
+            <p>Memo here</p>
+          </div>
+          <div className="map-img">
+
+          </div>
+          <div className="map-footer">
+            <p>Address here</p>
+          </div>
         </div>
       </footer>
     )
