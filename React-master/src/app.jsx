@@ -19,8 +19,8 @@ var Hello = React.createClass({
           <div className="text-footer">
             <ul>
               <li id="modify">MODIFY</li>
-              <li>WORK CALENDAR</li>
-              <li>REMINDER 12:00</li>
+              <li><div className="bullet"></div>WORK CALENDAR</li>
+              <li><div className="bullet"></div>REMINDER 12:00</li>
             </ul>
           </div>
         </div>
