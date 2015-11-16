@@ -25,6 +25,10 @@ var Hello = React.createClass({
           </div>
         </div>
         <div className="users">
+          <ul>
+            <li>{this.props.users[0]}</li>
+            <li>{this.props.users[1]}</li>
+          </ul>
         </div>
         <div className="map">
         </div>
