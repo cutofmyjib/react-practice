@@ -72,6 +72,11 @@ footer {
   background-color: #5581C0;
   color: white;
   border-radius: 2px;
+  cursor: hand;
+}
+
+#modify:hover {
+  background-color: gray;
 }
 
 .bullet {
@@ -98,6 +103,11 @@ footer {
   list-style: none;
   margin-right: 24px;
   padding: 0.5em 1em;
+}
+
+.text-footer > ul > li a{
+  color: white;
+  text-decoration: none;
 }
 
 .users {
