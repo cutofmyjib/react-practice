@@ -1,21 +1,33 @@
 var React = require('react');
-var Content = require('./content');
 var options = require('./object.json');
-var Map = require('./map');
-var Badge = require('./badge');
 
 var Hello = React.createClass({
   render: function() {
     return(
       <footer>
-        <Content title={this.props.title}
-        description={this.props.description} />
-        <ul>
-          <li><Badge /></li>
-          <li className="options">WORK CALENDAR</li>
-          <li className="options">REMINDER:</li>
-        </ul>
-        <Map />
+        <div className="text-area">
+          <div className="text-header">
+            <ul>
+              <li>HOUR</li>
+              <li>DATE</li>
+            </ul>
+          </div>
+          <div className="text-body">
+            <h1 className="title">{this.props.title}</h1>
+            <p>{this.props.description}</p>
+          </div>
+          <div className="text-footer">
+            <ul>
+              <li>MODIFY</li>
+              <li>WORK CALENDAR</li>
+              <li>REMINDER 12:00</li>
+            </ul>
+          </div>
+        </div>
+        <div className="users">
+        </div>
+        <div className="map">
+        </div>
       </footer>
     )
   }
