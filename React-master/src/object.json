@@ -1,0 +1,9 @@
+{
+    "start":"2015-09-02T12:30:00",
+    "end":"2015-09-02T14:00:00",
+    "title":"Second presentation in the new office!",
+    "description":"this is an event description, we have to make up text here that will wrap to two lines. I am not sure if we have made it long enough though..",
+    "location":"414 brannan st, san francisco",
+    "users":["alex","hector"],
+    "calendars":["google","exchange"]
+}
