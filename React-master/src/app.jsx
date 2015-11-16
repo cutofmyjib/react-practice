@@ -35,4 +35,4 @@ var Hello = React.createClass({
 
 
 var element = React.createElement(Hello, options);
-React.render(element, document.querySelector('.container'));
+React.render(element, document.querySelector('.root'));
