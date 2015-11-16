@@ -1,3 +1,7 @@
+/** {
+  border: 1px solid red;
+}
+*/
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -25,6 +29,7 @@ footer {
   font-weight: 300;
   font-size: 21.3px;
   color: #5581C0;
+  margin: 0;
 }
 
 .text-header > ul {
@@ -32,10 +37,77 @@ footer {
   display: flex;
   justify-content: flex-start;
   padding: 0;
+  margin: 0 0 24px 0;
 }
 
 .text-header > ul > li {
   padding-right: 12px;
+}
+
+.text-body {
+  font-family: 'MuseoSans', sans-serif;
+  color: #515252;
+}
+
+.text-body > h1 {
+  font-weight: 700;
+  font-size: 34px;
+  margin: 0 0 12px 0;
+}
+
+.text-body > p {
+  font-size: 14.3px;
+  color: #979797;
+  margin: 0;
+}
+
+.text-footer {
+  font-family: 'MuseoSans', sans-serif;
+  font-weight: 300;
+  font-size: 12.7px;
+  color: #515252;
+}
+
+#modify {
+  background-color: #5581C0;
+  color: white;
+  border-radius: 2px;
+  cursor: hand;
+}
+
+#modify:hover {
+  background-color: gray;
+}
+
+.bullet {
+  display: inline-block;
+  background-color: #5581C0;
+  margin-right: 5px;
+  height: 12.7px;
+  width: 12.7px;
+  border-radius: 50%;
+}
+
+.text-footer > ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+  margin: 24px 0 0 0;
+}
+
+.text-footer > ul > li {
+  text-align: center;
+  width: 100%;
+  list-style: none;
+  margin-right: 24px;
+  padding: 0.5em 1em;
+}
+
+.text-footer > ul > li a{
+  color: white;
+  text-decoration: none;
 }
 
 .users {
@@ -49,7 +121,6 @@ footer {
   background-color: gray;
   top: 12px;
   right: 12px;
-  border: 1px solid black;
 }
 
 @font-face {
