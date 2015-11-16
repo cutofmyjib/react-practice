@@ -8,7 +8,7 @@ var Hello = React.createClass({
         <div className="text-area">
           <div className="text-header">
             <ul>
-              <li>HOUR</li>
+              <li><b>HOUR</b></li>
               <li>DATE</li>
             </ul>
           </div>

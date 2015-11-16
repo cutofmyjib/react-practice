@@ -1,0 +1,47 @@
+.black {
+  color: black; }
+
+.container {
+  background-color: #EFEFEF; }
+
+.content {
+  display: inline-block;
+  width: 720px; }
+
+.map {
+  display: inline-block;
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  background-color: gray;
+  top: 12px;
+  right: 12px; }
+
+.badge {
+  width: 84px;
+  border-radius: 5px;
+  background-color: #8EACDA;
+}
+
+.ul {
+  float: left; }
+
+ul li {
+  float: left;
+  padding-right: 24px;
+}
+
+p {
+  font-family: MuseoSans;
+}
+
+.options {
+  font-family: MuseoSans;
+}
+
+@font-face {
+  font-family: MuseoSans;
+  src: url('/fonts/MuseoSans_500.otf'); }
+
+.title {
+  font-family: MuseoSans; }
