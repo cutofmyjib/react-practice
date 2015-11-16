@@ -8,3 +8,4 @@ Checkout this repo, install depdencies, then start the gulp process with the fol
 	> gulp
 ```
 
+From React tutorial: https://github.com/StephenGrider/ReactStarter
