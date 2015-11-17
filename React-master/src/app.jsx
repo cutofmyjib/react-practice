@@ -8,10 +8,13 @@ var Hello = React.createClass({
   render: function() {
     return(
       <footer>
-        <TextArea title={this.props.title}
+        <TextArea date={this.props.date}
+        time={this.props.time}
+        title={this.props.title}
         description={this.props.description}/>
         <UsersList {...options} />
-        <Map />
+        <Map location={this.props.location}
+        memo={this.props.memo}/>
       </footer>
     )
   }
