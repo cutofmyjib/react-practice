@@ -1,5 +1,6 @@
 var React = require('react');
 var TextArea = require('./textarea');
+var Users = require('./users');
 var options = require('./object.json');
 
 var Hello = React.createClass({
@@ -8,14 +9,7 @@ var Hello = React.createClass({
       <footer>
         <TextArea title={this.props.title}
         description={this.props.description}/>
-        <div className="users-container">
-          <div className="users">
-            <ul>
-              <li><div className="user-icon purple"><div className="smile"></div></div>{this.props.users[0]}</li>
-              <li><div className="user-icon red"><div className="smile"></div></div>{this.props.users[1]}</li>
-            </ul>
-          </div>
-        </div>
+        <Users />
         <div className="map">
           <div className="map-memo">
             <p>Memo here</p>
