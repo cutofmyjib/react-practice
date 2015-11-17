@@ -4,6 +4,9 @@
     "title":"THIS IS A HEADER",
     "description":"this is an event description, we have to make up text here that will wrap to two lines. I am not sure if we have made it long enough though..",
     "location":"650 folsom st, san francisco",
-    "users":["Max","Enid"],
+    "users":[
+      { "name": "Max", "color": "purple" },
+      { "name": "Enid", "color": "red"}
+    ],
     "calendars":["google","exchange"]
 }
