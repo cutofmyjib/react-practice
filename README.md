@@ -1,5 +1,7 @@
-React-master
-====
+####This is a front-end design practice using React.
+
+![Image of my project](react-practice.png)
+
 Checkout this repo, install depdencies, then start the gulp process with the following:
 
 ```
@@ -8,4 +10,4 @@ Checkout this repo, install depdencies, then start the gulp process with the fol
 	> gulp
 ```
 
-From React tutorial: https://github.com/StephenGrider/ReactStarter
+React template from: https://github.com/StephenGrider/ReactStarter
