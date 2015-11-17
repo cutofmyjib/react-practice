@@ -1,12 +1,13 @@
 var React = require('react');
+var TextArea = require('./textarea');
 var options = require('./object.json');
-var TextArea = require('./textarea')
 
 var Hello = React.createClass({
   render: function() {
     return(
       <footer>
-        <TextArea />
+        <TextArea title={this.props.title}
+        description={this.props.description}/>
         <div className="users-container">
           <div className="users">
             <ul>
