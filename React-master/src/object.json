@@ -1,12 +1,12 @@
 {
-    "start":"2015-09-02T12:30:00",
-    "end":"2015-09-02T14:00:00",
+    "time":"12:30 pm",
+    "date":"Nov. 16",
     "title":"THIS IS A HEADER",
-    "description":"this is an event description, we have to make up text here that will wrap to two lines. I am not sure if we have made it long enough though..",
-    "location":"650 folsom st, san francisco",
+    "description":"This is a description, ideally it should wrap into two lines. This is a description, ideally it should wrap into two lines.",
+    "location":"650 Folsom St, San Francisco",
+    "memo": "15 minutes",
     "users":[
       { "name": "Max", "color": "purple" },
       { "name": "Enid", "color": "red"}
-    ],
-    "calendars":["google","exchange"]
+    ]
 }
