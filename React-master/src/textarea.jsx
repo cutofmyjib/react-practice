@@ -6,8 +6,8 @@ module.exports = React.createClass({
         <div className="text-area">
           <div className="text-header">
             <ul>
-              <li><b>HOUR</b></li>
-              <li>DATE</li>
+              <li><b>{this.props.date}</b></li>
+              <li>{this.props.time}</li>
             </ul>
           </div>
           <div className="text-body">
@@ -18,7 +18,7 @@ module.exports = React.createClass({
             <ul>
               <li id="modify"><a href="#">MODIFY</a></li>
               <li><div className="bullet"></div>WORK CALENDAR</li>
-              <li><div className="bullet"></div>REMINDER 12:00</li>
+              <li><div className="bullet"></div>REMINDER {this.props.time}</li>
             </ul>
           </div>
         </div>
