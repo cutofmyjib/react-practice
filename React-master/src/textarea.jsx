@@ -1,5 +1,4 @@
 var React = require('react');
-var options = require('./object.json');
 
 module.exports = React.createClass({
   render: function() {
